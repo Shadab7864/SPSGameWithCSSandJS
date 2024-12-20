@@ -1,0 +1,26 @@
+body{
+    background-color:lightgray;
+}
+.Navbar{
+    display: flex;
+    justify-content: start;
+    border:2px solid blue;
+    padding-left: 5px;
+    margin: 5px;
+}
+.navTitle{
+    width:30%;
+}
+.navOption{
+    border: 2px solid black;
+    margin: 2px;
+    width:20%;
+}
+.navOptionContainer{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    color: red;
+    border:1px solid red;
+    width: 70%;
+}
